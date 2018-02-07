@@ -160,10 +160,10 @@ body {
       top:16px;
     }
 
-    nav nav ul li {
-      
+    nav ul.top-ul > li > a{
+      color: #6799ff;
     }
-
+    
     nav nav img {
       display: block;
       width: 50px;
