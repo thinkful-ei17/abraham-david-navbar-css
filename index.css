@@ -81,8 +81,7 @@ body {
     text-decoration: none;
     color: #6799ff;
     text-transform: uppercase;
-    padding-left: 15px;
-    padding-top:10px
+    padding: 5px 7px;
   }
   
   /* Sub-Menu styles */
@@ -157,13 +156,24 @@ body {
       display: flex;
       justify-content: space-around;
       background-color: #F9FBFF; 
-      top:16px;
+      top:17px;
+      height: 200px;
+      align-items: center;
     }
+
+
 
     nav ul.top-ul > li > a{
       color: #6799ff;
+      text-transform: uppercase;
+      text-align: center;
     }
-    
+
+    nav ul.top-ul > li:hover
+    {
+      border-bottom: 1px solid #6799ff;
+    }
+
     nav nav img {
       display: block;
       width: 50px;
@@ -181,9 +191,5 @@ body {
     nav nav:nth-child(2) a {
       width: 180px;
       text-align: center;
-    }
-
-        .active{
-      text-decoration: underline;
     }
   }
