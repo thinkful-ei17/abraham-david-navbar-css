@@ -142,6 +142,10 @@ body {
       border-bottom: 1px solid #CFD1D4;
     }
 
+    nav ul.top-ul{
+      padding-top:10px;
+    }
+
     nav ul li {
       border: none;
       width: auto;
@@ -154,14 +158,12 @@ body {
     
     nav nav ul  {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       background-color: #F9FBFF; 
       top:17px;
       height: 200px;
       align-items: center;
     }
-
-
 
     nav ul.top-ul > li > a{
       color: #6799ff;
