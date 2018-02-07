@@ -148,19 +148,32 @@ body {
       width: auto;
     }
     
-    nav ul li:last-of-type {
+    nav ul.top-ul > li:last-of-type {
       position: absolute;
       right: 2%;
+    }
+    
+    nav nav ul  {
+      display: flex;
+      justify-content: space-around;
+      background-color: #F9FBFF; 
+    }
+
+    nav nav ul li {
+      
     }
 
     nav nav img {
       display: block;
       width: 50px;
       height: 50px;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     nav nav {
-
+      position: absolute;
+      width: 100%;
+      left: 0;
     }
-
   }

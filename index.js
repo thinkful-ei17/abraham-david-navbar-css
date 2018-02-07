@@ -5,7 +5,9 @@ $(() =>{
     $('nav.main-nav').toggleClass('hidden');
   });
   $('nav ul li a').on('click', e => {
-    $(e.currentTarget).next('nav').toggleClass('hidden');
+    const current = $(e.currentTarget).next('nav');
+    $('nav nav').not(current).addClass('hidden');
+    current.toggleClass('hidden');
   });
   
 });
