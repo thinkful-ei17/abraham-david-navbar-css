@@ -139,7 +139,7 @@ body {
     .top-container {
       display: flex;
       justify-content: flex-start;
-      border-bottom: 1px solid #CFD1D4;
+      
     }
 
     nav ul.top-ul{
@@ -163,6 +163,7 @@ body {
       top:17px;
       height: 200px;
       align-items: center;
+      border-top: 1px solid #CFD1D4;
     }
 
     nav ul.top-ul > li > a{
