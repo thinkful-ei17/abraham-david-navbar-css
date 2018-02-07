@@ -140,7 +140,7 @@ body {
     .top-container {
       display: flex;
       justify-content: flex-start;
-
+      border-bottom: 1px solid #CFD1D4;
     }
 
     nav ul li {
@@ -157,6 +157,7 @@ body {
       display: flex;
       justify-content: space-around;
       background-color: #F9FBFF; 
+      top:16px;
     }
 
     nav nav ul li {
@@ -175,5 +176,14 @@ body {
       position: absolute;
       width: 100%;
       left: 0;
+    }
+
+    nav nav:nth-child(2) a {
+      width: 180px;
+      text-align: center;
+    }
+
+        .active{
+      text-decoration: underline;
     }
   }
