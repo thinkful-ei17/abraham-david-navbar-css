@@ -23,5 +23,32 @@ body {
     margin-bottom: 5px;
 }
 
-/* Add your CSS here */
+.logo {
+    padding: 10px 10px;
+    width: 150px;
+    height: 42px;
+}
 
+.top-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #D1D2D5;
+    padding: 10px;
+}
+
+.hidden {
+    /* visibility: hidden; */
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #6799ff;
+    text-transform: uppercase;
+}
